@@ -19,7 +19,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error parsing currency: %v", err)
 	}
-	fmt.Printf("Decoded USD: %d\n", decodedUsd)
+	fmt.Printf("Decoded USD: %f\n", decodedUsd)
 
 	// Format IDR
 	formattedIdr, err := gocurrency.FormatCurrency(123456789, "IDR", "id_ID")
@@ -33,5 +33,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("Error parsing currency: %v", err)
 	}
-	fmt.Printf("Decoded IDR: %d\n", decodedIdr)
+	fmt.Printf("Decoded IDR: %f\n", decodedIdr)
 }

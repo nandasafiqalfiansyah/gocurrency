@@ -1,21 +1,18 @@
 # gocurrency v1.0.0
 
-`gocurrency` adalah library Golang untuk memformat nilai integer menjadi string mata uang dengan format berbagai mata uang di seluruh dunia, serta mengonversi kembali string mata uang yang diformat menjadi nilai integer.
+`gocurrency` is a Golang library for formatting float values ​​into currency strings in various worldwide currency formats, as well as converting formatted currency strings back into integer values.
+<hr>
 
-## Versi
-Versi saat ini: **v1.0.0**
+[![My Skills](https://skillicons.dev/icons?i=go)](https://skillicons.dev)
 
-## Instalasi
-
-Untuk menggunakan versi stabil terbaru:
-
+## Installation
+To use the latest stable version:
 ```bash
-go get github.com/nandasafiqalfiansyah/gocurrency@v1.0.0
+go get github.com/nandasafiqalfiansyah/gocurrency
 ```
+## CurrencyCode and Locale Usage Table
 
-## Tabel Penggunaan CurrencyCode dan Locale
-
-| Mata Uang          | Kode Mata Uang | Locale     | Contoh Format                                 |
+| Currency       | Currency Code | Locale     | Example Format                                |
 |--------------------|----------------|------------|-----------------------------------------------|
 | Dolar Amerika      | USD            | en_US      | $1,234,567.89                                 |
 | Euro               | EUR            | de_DE      | 1.234.567,89 €                                |
@@ -38,11 +35,10 @@ go get github.com/nandasafiqalfiansyah/gocurrency@v1.0.0
 | Dinar Kuwait       | KWD            | ar_KW      | د.ك1,234,567.890                               |
 | Riyal Saudi        | SAR            | ar_SA      | ﷼1,234,567.89                                 |
 
-### Penggunaan
+### Use
 
-Untuk memformat atau mengonversi kembali mata uang dengan `currencyCode` dan `locale`, Anda bisa menggunakan fungsi `FormatCurrency` dan `ParseCurrency` dengan parameter yang sesuai seperti yang ditunjukkan dalam tabel di atas.
-
-#### Contoh
+To format or convert back currency with `currencyCode` and `locale`, you can use the `FormatCurrency` and `ParseCurrency` functions with the appropriate parameters as shown in the table above.
+#### Example
 ```go
 formattedUsd, err := gocurrency.FormatCurrency(123456789, "USD", "en_US")
 decodedUsd, err := gocurrency.ParseCurrency(formattedUsd, "USD")

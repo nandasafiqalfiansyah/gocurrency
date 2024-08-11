@@ -1,3 +1,18 @@
+# gocurrency v1.0.0
+
+`gocurrency` adalah library Golang untuk memformat nilai integer menjadi string mata uang dengan format berbagai mata uang di seluruh dunia, serta mengonversi kembali string mata uang yang diformat menjadi nilai integer.
+
+## Versi
+Versi saat ini: **v1.0.0**
+
+## Instalasi
+
+Untuk menggunakan versi stabil terbaru:
+
+```bash
+go get github.com/nandasafiqalfiansyah/gocurrency@v1.0.0
+```
+
 ## Tabel Penggunaan CurrencyCode dan Locale
 
 | Mata Uang          | Kode Mata Uang | Locale     | Contoh Format                                 |

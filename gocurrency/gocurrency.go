@@ -8,7 +8,6 @@ import (
 	"strings"
 )
 
-// sampel code formating
 func FormatCurrency(amount int64, currencyCode string, locale string) (string, error) {
 	amountValue, err := currency.NewAmount(fmt.Sprintf("%d", amount), currencyCode)
 	if err != nil {

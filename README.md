@@ -1,6 +1,6 @@
 # 🌍 gocurrency v1.1.0
 
-`gocurrency` is a Golang library for formatting float values ​​into currency strings in various worldwide currency formats, as well as converting formatted currency strings back into integer values.
+`gocurrency` is a Golang library for formatting float values ​​into currency strings in various worldwide currency formats, as well as converting formatted currency strings back into float values.
 <hr>
 
 [![Go](https://skillicons.dev/icons?i=go)](https://skillicons.dev)

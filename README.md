@@ -1,9 +1,15 @@
-# 🌍 gocurrency v1.1.0
+<div style="display: flex; align-items: center;">
+  <a href="https://pkg.go.dev/github.com/nandasafiqalfiansyah/gocurrency">
+    <img src="https://skillicons.dev/icons?i=go" alt="Go" width="40" height="40" style="margin-right: 8px;">
+    gocurrency v1.1.0
+  </a>
+  <span style="font-size: 32px;"></span>
+</div>
+
+  [![DOI](https://joss.theoj.org/papers/10.21105/joss.02448/status.svg)](https://doi.org/10.21105/joss.02448)
+
 
 `gocurrency` is a Golang library for formatting float values ​​into currency strings in various worldwide currency formats, as well as converting formatted currency strings back into float values.
-<hr>
-
-[![Go](https://skillicons.dev/icons?i=go)](https://skillicons.dev)
 
 ## 📦 Installation
 To use the latest stable version:
